@@ -8601,3 +8601,25 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/* EDITS */
+
+.flexUl {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	min-width: 300px;
+} 
+
+.buttonLi {
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding: 0 1em;
+	min-width: 69px;
+}
+
+.svgLi {
+	height:auto;
+	max-width: 15px;
+	vertical-align: text-bottom;
+}
